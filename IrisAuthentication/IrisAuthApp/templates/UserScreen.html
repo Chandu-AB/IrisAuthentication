@@ -1,0 +1,66 @@
+{% load static %}
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>A Novel Graphical Password Authentication Scheme with Improved Usability</title>
+<meta name="keywords" content="" />
+<meta name="Premium Series" content="" />
+<link href="{% static 'default.css' %}" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<!-- start header -->
+<div id="header">
+	<div id="logo">
+		<h1><span><center>A Novel Graphical Password Authentication Scheme with Improved Usability
+
+</center></span></h1>
+		
+	</div>
+	<div id="menu">
+		<ul id="main">
+		<li><a href="{% url 'PostMessage' %}"><font size="3" color="white">Post Message</a></li><td></td>
+		<li><a href="{% url 'ViewMessage' %}"><font size="3" color="white">View Message</a></li><td></td>
+		<li><a href="{% url 'index' %}"><font size="3" color="white">Logout</a></li><td></td>
+			<td></td>
+			
+     
+		</ul>
+		
+	</div>
+	
+</div>
+<div id="wrapper">
+	<!-- start page -->
+	<div id="page">
+		
+		<!-- start content -->
+		<div id="content">
+			<div class="flower"><center><img src="{% static 'images/tra.jpg' %}" alt="" width="660" height="400" /></center></div>
+			<br/><br/>
+			<center><font size="3" color="red">{{ data|safe }}</font></center>
+		<center>
+		
+			<table align="center">
+			<tr>
+			<h3>
+			</p></h3>
+			</table>
+			</center><br /><div class="post">
+				
+				<div class="entry">
+					
+				</div>
+			</div>
+		</div>
+		<!-- end content -->
+		<!-- start sidebars -->
+		
+		<!-- end sidebars -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end page -->
+</div>
+</body>
+</html>
+
+
