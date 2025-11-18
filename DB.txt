@@ -1,0 +1,20 @@
+create database irisauth;
+use irisauth;
+
+create table register(username varchar(50) primary key,
+password varchar(50),
+contact varchar(12),
+email varchar(50),
+address varchar(80));
+
+create table messages(msg_id int,
+sender varchar(50),
+receiver varchar(50),
+message varchar(500),
+msg_date varchar(50));
+
+
+
+
+
+
